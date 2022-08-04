@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 7em;
+}
+.body-container{
+    
+
+ background: white;
+
+
+}
+
+
+.container-fluid{
+   background: lightblue;
+}
+
+.nav-link{             
+
+    font-variant: small-caps;
+
+}
+
+
+
+
+.navbar-nav li:hover{
+    transform: scale(2);
+    transition: all 3s;
+}
+
+.rcz{
+    width: 45%;
+    
+}
+
+.t8{
+    width: 45%;
+}
+
+.d8{
+    width: 45%;
+}
+
+.c8{
+    width: 45%;
+}
+
+.section-uno{
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2-rcz, .h2-3008, .h2-208, .h2-5008 {
+    text-align: center;
+    font-size: 5em;
+}
+
+p{
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.form-contacto{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;  
+    border-radius: 7px;
+}
+
+.h2-contacto{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.input-contacto, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+.textarea{
+    min-height: 233px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #d2dcf5;
+    color: black;
+    padding: 1px;
+}
+
+.section-tabla{
+    margin: auto;
+    padding: 10px;
+    background: rgb(5,128,126);
+    background: radial-gradient(circle, rgba(5,128,126,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+}
