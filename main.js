@@ -24,6 +24,7 @@ alert ("no es valido el valor ingresado");
 }
 
 
+
 function stockAutos()
 {
 alert("Peugeot RCZ $15.900.000\n Peugeot 208 $3.800.000");
@@ -36,10 +37,11 @@ alert("Peugeot 3008 $9.600.000\n Peugeot 5008 $13.000.000");
 
 
 
-const productos = [{id:1, nombre:"RCZ",  precio:"$15.000.900"},
-                   {id:2, nombre:"3008", precio:"$9.600.000"},
-                   {id:3, nombre:"208",  precio:"$3.800.000"},
-                   {id:4, nombre:"5008", precio:"$13.000.000"},
+const productos = [{id:1, nombre:"RCZ",     precio:"$15.000.900"},
+                   {id:2, nombre:"3008",    precio:"$9.600.000"},
+                   {id:3, nombre:"208",     precio:"$3.800.000"},
+                   {id:4, nombre:"5008",    precio:"$13.000.000"},
+                   {id:5, nombre:"partner", precio: "$7.300.000"},
 ]
 
 let campoEmpresa=document.getElementById("empresa");
