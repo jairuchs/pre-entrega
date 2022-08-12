@@ -110,3 +110,8 @@ p{
     background: radial-gradient(circle, rgba(5,128,126,1) 0%, rgba(148,187,233,1) 100%);
     color: white;
 }
+
+button{
+    padding: 20px;
+    margin: 5px;
+}

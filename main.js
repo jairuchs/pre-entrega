@@ -78,3 +78,9 @@ for(const producto of productos){
     </div>
     `;
 }
+
+const button = document.getElementById("button")
+
+button.addEventListener("click", () => {
+    console.log ("click")
+})
